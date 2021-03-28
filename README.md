@@ -19,6 +19,7 @@ Log Screen
 * Each time saved is in its own card
 * Green background if saved during the day
 * Blue background if saved during the night
+* Counter displaying the total number of hours driven during the day and night respectively
 * Export Button - will send a copy of the times to the student and parent email as stated in the settings
 
 Settings Screen
