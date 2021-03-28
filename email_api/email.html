@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Driving Log</h1>
+        <p style={display: inline}>Name: _________________________</p>
+        <p style={display: inline}>Date: _________________________</p>
+        <p style={display: inline}>Period: _______</p>
+
+        <br/><br/>
+
+        <p><b>Total daytime hours: {{hours_day}} </b></p>
+        <p><b>Total nighttime hours: {{hours_night}} </b></p>
+
+        {{data_table|safe}}
+
+        <br/><br/>
+
+        <p style={display: inline}><b>Parent Signature __________________________________  Date ______________</b></p>
+
+        <br/><br/>
+
+        <p style={display: inline}><b>Student Signature __________________________________  Date ______________</b></p>
+
+
+    </body>
+</html>
+
+
