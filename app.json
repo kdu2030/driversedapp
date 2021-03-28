@@ -1,0 +1,16 @@
+ {
+   "expo": {
+    "name": "Drive45",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "slug": "Drive45",
+    "ios": {
+      "bundleIdentifier": "driversed.pythonanywhere.com",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "driversed.pythonanywhere.com",
+      "versionCode": 1
+    }
+   }
+ }
